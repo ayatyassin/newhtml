@@ -1,0 +1,209 @@
+
+body{
+	margin:0;
+	padding:0;
+	height:2200px;
+	direction: rtl;
+}
+.clear{
+	clear:both;
+}
+
+/*start mylogo */
+
+.mylogo{
+	padding: 10px;
+	text-align: center;
+}
+.mylogo img{
+border-radius: 20px;
+width: 120px;
+}
+
+/*end mylogo */
+
+/* start header */
+
+
+.header ul{
+	background-color: #5f2710;
+margin: 0;
+padding: 10px;
+color: #fff;
+font-size: 20px;
+}
+.header ul li{
+	display:inline-block;
+	padding:10px;
+}
+.header ul a{
+	color: #fff;
+	text-decoration: none;
+padding: 10px;
+}
+
+
+/* end header */
+/*start slide */
+.slide{
+	position:relative;
+}
+.slide img{
+	    height: 420px;
+    width: 100%;
+}
+.slide .over{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	
+
+text-align: center;
+
+font-size: 40px;
+
+letter-spacing: 5px;
+	
+	
+}
+
+
+/*end slide*/
+
+
+
+
+
+
+/* start content*/
+.content,.content2{
+    padding: 20px;
+    height: 300px;
+    margin: 30px;
+    text-align: center;
+    line-height: 1.5;
+	font-size:22px
+}
+.content>div{
+	float: left;
+width: 30%;
+padding: 10px;
+}
+.content div img{
+	width: 150px;
+height: 150px;
+display: block;
+margin: 5px auto;
+border-radius: 100px;
+border: 2px solid #5f2710;
+}
+.content div img:hover{
+	
+border: 4px solid #333;
+}
+/*end content */
+/* start content2*/
+.content2 .mydiv1{
+float: left;
+width: 50%;
+padding: 30px;
+}
+
+.content2 .mydiv2{
+	float: right;
+width: 40%;
+padding: 10px;
+}
+.content2 .mydiv2 img{
+	width:300px;
+	height:200px;
+	border:3px solid #5f2710;
+}
+/*end content2 */
+
+/*start gallery */
+
+fieldset{
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+	border: 3px dotted #5f2710;
+	 margin-bottom: 50px;
+}
+legend{
+	font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    border: 3px dotted #5f2710;
+
+}
+/*end gallery */
+
+/*start contactus */
+
+.contact{
+	padding: 40px;
+	border:5px solid #f3770e;
+	margin: 30px;
+	margin-bottom: 50px;
+	color: #f3770e;
+	background-color: #5f2710;
+}
+label{
+	display: inline-block;
+	width: 100px;
+	font-size: 20px;
+	margin: 20px;
+}
+input,select,textarea{
+	padding: 10px;
+	margin: 10px;
+}
+.yes{
+	text-align: center;
+}.contact span{
+	background-color: #fff;
+	padding: 10px;
+	display: inline-block;
+	margin: 20px;
+}
+.contact ul{
+	list-style-type: none;
+}
+.contact ul li{
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	color: #fff;
+	
+}
+.contact ul li:hover{
+cursor: pointer;	
+}
+
+/*end contactus */
+
+/* start footer */
+.footer{
+	background-color: #5f2710;
+	position:fixed;
+	right:0;
+	left:0;
+	bottom:0;
+	padding: 10px;
+color: #fff;
+font-size: 20px;
+text-align:center;
+margin-top: 10px;
+
+}
+
+
+
+
+/* end footer */
